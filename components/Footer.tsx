@@ -1,4 +1,14 @@
+"use client";
+
+import { useState, useEffect } from "react";
+
 export default function Footer() {
+  const [year, setYear] = useState(2026);
+
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
+
   return (
     <footer className="bg-black border-t border-white/10 pt-16 pb-8 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-10">
@@ -83,7 +93,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto mt-12 pt-6 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-3 text-sm text-zinc-500">
-        <p>© {new Date().getFullYear()} Chicken &amp; Pizza. All rights reserved.</p>
+        <p>© {year} Chicken &amp; Pizza. All rights reserved.</p>
         <p>
           Made with <span className="text-red-500">❤</span> for food lovers.
         </p>

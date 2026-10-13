@@ -1,27 +1,27 @@
 const offers = [
   {
-    title: "Family Bucket",
-    desc: "8 pcs chicken + 2 large pizzas + 4 drinks + fries.",
-    price: "$34.99",
-    old: "$49.99",
-    badge: "30% OFF",
-    img: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
-  },
-  {
-    title: "Pizza Combo",
-    desc: "Any 2 large pizzas + garlic bread + 2 drinks.",
-    price: "$22.99",
-    old: "$29.99",
-    badge: "Save $7",
-    img: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
-  },
-  {
-    title: "Burger Deal",
-    desc: "2 cheeseburgers + loaded fries + 2 soft drinks.",
-    price: "$14.99",
-    old: "$19.99",
+    title: "Ottoman Feast",
+    desc: "Mixed grill platter + 2 pide + 4 Turkish teas + baklava.",
+    price: "$44.99",
+    old: "$59.99",
     badge: "25% OFF",
-    img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+    img: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800&q=80",
+  },
+  {
+    title: "Kebab Platter",
+    desc: "Adana + Shish kebab + rice + salad + 2 ayran.",
+    price: "$29.99",
+    old: "$39.99",
+    badge: "Save $10",
+    img: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
+  },
+  {
+    title: "Meze Platter",
+    desc: "Hummus + Baba Ganoush + Falafel + pita bread + 2 teas.",
+    price: "$19.99",
+    old: "$26.99",
+    badge: "25% OFF",
+    img: "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
   },
 ];
 
@@ -39,7 +39,7 @@ export default function Offers() {
             Hot Deals &amp; <span className="text-orange-500">Combos</span>
           </h2>
           <p className="mt-4 text-zinc-400 max-w-xl mx-auto">
-            Grab our limited-time offers — great food at even better prices!
+            Grab our limited-time offers — authentic Ottoman cuisine at even better prices!
           </p>
         </div>
 

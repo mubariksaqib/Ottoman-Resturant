@@ -3,14 +3,14 @@
 import { useState } from "react";
 
 const images = [
-  { src: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80", alt: "Pizza", tall: true },
-  { src: "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&q=80", alt: "Fried Chicken" },
-  { src: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80", alt: "Burger" },
-  { src: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80", alt: "Fries", tall: true },
-  { src: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80", alt: "Chicken Burger" },
-  { src: "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=800&q=80", alt: "Pepperoni Pizza" },
-  { src: "https://images.unsplash.com/photo-1581636625402-29b2a704ef13?w=800&q=80", alt: "Drink" },
-  { src: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80", alt: "Chicken Bucket" },
+  { src: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800&q=80", alt: "Adana Kebab", tall: true },
+  { src: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&q=80", alt: "Lahmacun" },
+  { src: "https://images.unsplash.com/photo-1598110750624-207050c4f28c?w=800&q=80", alt: "Baklava" },
+  { src: "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80", alt: "Mixed Grill", tall: true },
+  { src: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80", alt: "Shish Kebab" },
+  { src: "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800&q=80", alt: "Turkish Tea" },
+  { src: "https://images.unsplash.com/photo-1593001874117-c99c800e3eb6?w=800&q=80", alt: "Falafel" },
+  { src: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&q=80", alt: "Kunefe" },
 ];
 
 export default function Gallery() {

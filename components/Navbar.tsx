@@ -35,10 +35,10 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="#home" className="flex items-center gap-2 group">
           <div className="w-10 h-10 rounded-full bg-gradient-to-br from-red-600 to-orange-500 flex items-center justify-center font-extrabold text-lg group-hover:scale-110 transition-transform">
-            C&amp;P
+            OR
           </div>
           <span className="font-extrabold text-xl tracking-tight">
-            Chicken <span className="text-orange-500">&amp;</span> Pizza
+            Ottoman <span className="text-orange-500">Restaurant</span>
           </span>
         </Link>
 

@@ -7,33 +7,35 @@ type Item = {
   name: string;
   desc: string;
   price: string;
-  category: "Pizza" | "Chicken" | "Burgers" | "Fries" | "Drinks";
+  category: "Kebabs" | "Pide" | "Meze" | "Desserts" | "Drinks";
   img: string;
 };
 
 const items: Item[] = [
-  // Pizza
-  { id: 1, name: "Margherita Pizza", desc: "Fresh mozzarella, tomato sauce, basil.", price: "$9.99", category: "Pizza", img: "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=600&q=80" },
-  { id: 2, name: "Pepperoni Pizza", desc: "Loaded pepperoni, mozzarella, oregano.", price: "$11.99", category: "Pizza", img: "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=600&q=80" },
-  { id: 3, name: "BBQ Chicken Pizza", desc: "Grilled chicken, BBQ sauce, onions.", price: "$12.99", category: "Pizza", img: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" },
-  // Chicken
-  { id: 4, name: "Crispy Fried Chicken", desc: "Golden fried chicken, secret spices.", price: "$8.99", category: "Chicken", img: "https://images.unsplash.com/photo-1562967914-608f82629710?w=600&q=80" },
-  { id: 5, name: "Chicken Bucket", desc: "8 pieces of our signature fried chicken.", price: "$19.99", category: "Chicken", img: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=600&q=80" },
-  { id: 6, name: "Hot Wings", desc: "Spicy buffalo wings with ranch dip.", price: "$7.99", category: "Chicken", img: "https://images.unsplash.com/photo-1608039755401-742074f0548d?w=600&q=80" },
-  // Burgers
-  { id: 7, name: "Classic Cheeseburger", desc: "Beef patty, cheddar, lettuce, tomato.", price: "$6.99", category: "Burgers", img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80" },
-  { id: 8, name: "Crispy Chicken Burger", desc: "Fried chicken fillet, mayo, pickles.", price: "$7.49", category: "Burgers", img: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=600&q=80" },
-  { id: 9, name: "Double Beef Burger", desc: "Two patties, double cheese, bacon.", price: "$9.99", category: "Burgers", img: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&q=80" },
-  // Fries
-  { id: 10, name: "Classic Fries", desc: "Crispy golden fries with sea salt.", price: "$3.49", category: "Fries", img: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&q=80" },
-  { id: 11, name: "Loaded Cheese Fries", desc: "Fries topped with cheese sauce & jalapeños.", price: "$5.49", category: "Fries", img: "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?w=600&q=80" },
+  // Kebabs
+  { id: 1, name: "Adana Kebab", desc: "Spicy minced lamb kebab grilled on skewers.", price: "$14.99", category: "Kebabs", img: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=600&q=80" },
+  { id: 2, name: "Shish Kebab", desc: "Marinated lamb cubes, grilled with peppers & onions.", price: "$16.99", category: "Kebabs", img: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=600&q=80" },
+  { id: 3, name: "Chicken Shish", desc: "Tender chicken cubes marinated in yogurt & spices.", price: "$13.99", category: "Kebabs", img: "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?w=600&q=80" },
+  { id: 4, name: "Doner Kebab", desc: "Traditional Turkish doner served with rice & salad.", price: "$12.99", category: "Kebabs", img: "https://images.unsplash.com/photo-1633321702518-7feccafb94d5?w=600&q=80" },
+  // Pide
+  { id: 5, name: "Lahmacun", desc: "Thin Turkish flatbread topped with minced meat & herbs.", price: "$7.99", category: "Pide", img: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80" },
+  { id: 6, name: "Kasarli Pide", desc: "Boat-shaped flatbread with melted cheese & butter.", price: "$9.99", category: "Pide", img: "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80" },
+  { id: 7, name: "Sucuklu Pide", desc: "Turkish sausage, cheese & egg on crispy flatbread.", price: "$10.99", category: "Pide", img: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80" },
+  // Meze
+  { id: 8, name: "Hummus", desc: "Creamy chickpea dip with tahini, olive oil & pita.", price: "$5.99", category: "Meze", img: "https://images.unsplash.com/photo-1637949385162-e416fb15b2ce?w=600&q=80" },
+  { id: 9, name: "Baba Ganoush", desc: "Smoky roasted eggplant dip with garlic & olive oil.", price: "$6.49", category: "Meze", img: "https://images.unsplash.com/photo-1626200419199-391ae4be7a41?w=600&q=80" },
+  { id: 10, name: "Falafel Plate", desc: "Crispy chickpea fritters with tahini sauce.", price: "$7.49", category: "Meze", img: "https://images.unsplash.com/photo-1593001874117-c99c800e3eb6?w=600&q=80" },
+  // Desserts
+  { id: 11, name: "Baklava", desc: "Layers of filo pastry with pistachio & honey syrup.", price: "$6.99", category: "Desserts", img: "https://images.unsplash.com/photo-1598110750624-207050c4f28c?w=600&q=80" },
+  { id: 12, name: "Kunefe", desc: "Crispy shredded pastry with melted cheese & syrup.", price: "$8.99", category: "Desserts", img: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80" },
+  { id: 13, name: "Turkish Delight", desc: "Assorted lokum with rose, lemon & pistachio.", price: "$4.99", category: "Desserts", img: "https://images.unsplash.com/photo-1582293041079-7814c2f12063?w=600&q=80" },
   // Drinks
-  { id: 12, name: "Soft Drink", desc: "Coke, Pepsi, Sprite — your choice.", price: "$1.99", category: "Drinks", img: "https://images.unsplash.com/photo-1581636625402-29b2a704ef13?w=600&q=80" },
-  { id: 13, name: "Fresh Lemonade", desc: "Hand-squeezed lemons, mint, ice.", price: "$2.99", category: "Drinks", img: "https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=600&q=80" },
-  { id: 14, name: "Milkshake", desc: "Creamy chocolate, vanilla or strawberry.", price: "$3.99", category: "Drinks", img: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=600&q=80" },
+  { id: 14, name: "Turkish Tea", desc: "Traditional black tea served in tulip glasses.", price: "$2.49", category: "Drinks", img: "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=600&q=80" },
+  { id: 15, name: "Turkish Coffee", desc: "Rich, aromatic coffee brewed the traditional way.", price: "$3.99", category: "Drinks", img: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&q=80" },
+  { id: 16, name: "Ayran", desc: "Refreshing yogurt drink with a pinch of salt.", price: "$2.99", category: "Drinks", img: "https://images.unsplash.com/photo-1626200419199-391ae4be7a41?w=600&q=80" },
 ];
 
-const categories = ["All", "Pizza", "Chicken", "Burgers", "Fries", "Drinks"] as const;
+const categories = ["All", "Kebabs", "Pide", "Meze", "Desserts", "Drinks"] as const;
 
 export default function Menu() {
   const [active, setActive] = useState<(typeof categories)[number]>("All");
@@ -48,10 +50,10 @@ export default function Menu() {
             Our Menu
           </span>
           <h2 className="mt-3 text-4xl sm:text-5xl font-extrabold">
-            Explore Our <span className="text-orange-500">Delicious</span> Menu
+            Explore Our <span className="text-orange-500">Authentic</span> Menu
           </h2>
           <p className="mt-4 text-zinc-400 max-w-xl mx-auto">
-            From crispy fried chicken to wood-fired pizzas, we&apos;ve got something for everyone.
+            From sizzling kebabs to sweet baklava, we bring the taste of Ottoman cuisine to your table.
           </p>
         </div>
 

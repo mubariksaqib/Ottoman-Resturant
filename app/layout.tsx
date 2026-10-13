@@ -14,10 +14,18 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Chicken & Pizza | Freshly Made, Perfectly Served",
+  title: "Ottoman Restaurant | Authentic Turkish Cuisine",
   description:
-    "Order delicious pizza, fried chicken, burgers, and fries at Chicken & Pizza. Freshly made, perfectly served!",
-  keywords: ["pizza", "fried chicken", "burgers", "fast food", "cafe", "restaurant"],
+    "Experience authentic Ottoman and Turkish cuisine at Ottoman Restaurant. Freshly made, perfectly served!",
+  keywords: [
+    "ottoman restaurant",
+    "turkish cuisine",
+    "kebab",
+    "pide",
+    "baklava",
+    "turkish food",
+    "restaurant",
+  ],
 };
 
 export default function RootLayout({

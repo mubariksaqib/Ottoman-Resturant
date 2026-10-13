@@ -23,7 +23,7 @@ export default function Contact() {
             Get in <span className="text-orange-500">Touch</span>
           </h2>
           <p className="mt-4 text-zinc-400 max-w-xl mx-auto">
-            Questions, orders, or feedback — we&apos;d love to hear from you.
+            Reservations, catering, or feedback — we&apos;d love to hear from you.
           </p>
         </div>
 
@@ -33,8 +33,8 @@ export default function Contact() {
             <div className="rounded-2xl overflow-hidden border border-white/10">
               {/* Replace with your real address embed */}
               <iframe
-                title="Cafe Location"
-                src="https://www.google.com/maps?q=New+York&output=embed"
+                title="Restaurant Location"
+                src="https://www.google.com/maps?q=Istanbul&output=embed"
                 className="w-full h-64 border-0"
                 loading="lazy"
               />
@@ -45,7 +45,7 @@ export default function Contact() {
                 <div className="text-2xl mb-2">📍</div>
                 <div className="font-semibold">Address</div>
                 <p className="text-sm text-zinc-400 mt-1">
-                  123 Food Street, Your City <br />
+                  123 Ottoman Street, Your City <br />
                   <span className="text-xs text-zinc-500">(update with your real address)</span>
                 </p>
               </div>
@@ -57,7 +57,7 @@ export default function Contact() {
               <div className="p-5 rounded-2xl bg-zinc-900/60 border border-white/5">
                 <div className="text-2xl mb-2">✉️</div>
                 <div className="font-semibold">Email</div>
-                <p className="text-sm text-zinc-400 mt-1">hello@chickenandpizza.com</p>
+                <p className="text-sm text-zinc-400 mt-1">hello@ottomanrestaurant.com</p>
               </div>
               <div className="p-5 rounded-2xl bg-zinc-900/60 border border-white/5">
                 <div className="text-2xl mb-2">🕒</div>

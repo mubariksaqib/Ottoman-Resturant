@@ -6,23 +6,23 @@ export default function About() {
         <div className="relative reveal">
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://images.unsplash.com/photo-1562967914-608f82629710?w=600&q=80"
-              alt="Fried chicken"
+              src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=600&q=80"
+              alt="Adana Kebab"
               className="rounded-2xl w-full h-64 object-cover hover:scale-105 transition-transform duration-500"
             />
             <img
-              src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=600&q=80"
-              alt="Burger"
+              src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80"
+              alt="Turkish Pide"
               className="rounded-2xl w-full h-64 object-cover mt-8 hover:scale-105 transition-transform duration-500"
             />
             <img
-              src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80"
-              alt="Pizza"
+              src="https://images.unsplash.com/photo-1598110750624-207050c4f28c?w=600&q=80"
+              alt="Baklava"
               className="rounded-2xl w-full h-64 object-cover -mt-8 hover:scale-105 transition-transform duration-500"
             />
             <img
-              src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&q=80"
-              alt="Fries"
+              src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=600&q=80"
+              alt="Turkish Tea"
               className="rounded-2xl w-full h-64 object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
@@ -37,22 +37,21 @@ export default function About() {
             A Taste You&apos;ll <span className="text-orange-500">Never Forget</span>
           </h2>
           <p className="mt-6 text-zinc-400 leading-relaxed">
-            At Chicken &amp; Pizza, we blend traditional recipes with a modern twist.
-            Every pizza is hand-tossed and baked to golden perfection, while our
-            signature fried chicken is marinated in our secret spice blend for a
-            crunch that keeps you coming back.
+            At Ottoman Restaurant, we bring centuries of Turkish culinary tradition
+            to your table. From sizzling Adana kebabs to delicate baklava, every
+            dish is prepared with authentic recipes passed down through generations.
           </p>
           <p className="mt-4 text-zinc-400 leading-relaxed">
-            We use only the freshest ingredients, locally sourced produce, and
-            premium quality meats — because great taste starts with great
-            ingredients.
+            We use only the freshest ingredients — premium cuts of meat, hand-picked
+            spices, and traditional cooking methods — because great taste starts
+            with great ingredients and respect for tradition.
           </p>
 
           <div className="mt-8 grid grid-cols-2 gap-4">
             {[
               { icon: "🔥", t: "Fresh & Hot" },
               { icon: "🌿", t: "Quality Ingredients" },
-              { icon: "⚡", t: "Fast Delivery" },
+              { icon: "⚡", t: "Fast Service" },
               { icon: "❤️", t: "Made with Love" },
             ].map((f) => (
               <div

@@ -93,7 +93,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto mt-12 pt-6 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-3 text-sm text-zinc-500">
-        <p>© {year} Ottoman Restaurant. All rights reserved.</p>
+        <p>© {year} Ottoman Restaurant. Developed by Tech Buddies.</p>
         <p>
           Made with <span className="text-red-500">❤</span> for food lovers.
         </p>

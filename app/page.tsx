@@ -41,6 +41,21 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+
+      {/* ===== Developed by Tech Buddies ===== */}
+      <div className="bg-gray-950 border-t border-gray-900 py-4">
+        <p className="text-center text-sm text-gray-400">
+          Developed by{" "}
+          <a
+            href="https://portfolio-self-nine-93.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:text-cyan-400 font-semibold transition"
+          >
+            Tech Buddies
+          </a>
+        </p>
+      </div>
     </>
   );
 }
